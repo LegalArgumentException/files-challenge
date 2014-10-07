@@ -1,8 +1,38 @@
+/*
+	Author: Tanner Garrett
+	Date: 10/2/2014
+	TA: Zachary Balter
+	This document allows for all stylistic parts of an informative page on Alan Alda. All extra content will be seperated by a space and positioned at the bottom of each rule.
+*/
+
 body {
 	font-family: "Helvetica", "sans-serif";
 	font-size: 18px;
-}
 
+	background-color: #265E28;
+}
 img {
 	max-width: 600px;
+
+	float:left;
+	margin-right: 20px;
+	text-align: left;
+}
+
+/* All rules past this are extra content */
+h1 {
+	text-align:center;
+}
+
+#maindiv {
+	background: gray;
+	border: solid black 10px;
+	border-radius: 5px;
+	box-shadow: 15px 15px 7px;
+	overflow: hidden;
+	line-height: 50px;
+	margin: 50px;
+	min-width: 1050px;
+	padding: 1em;
+	text-align: center;
 }
